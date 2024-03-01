@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family
+    =Kode+Mono:wght@400..700&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+<body>
+
+    <h1 class="head">F&#127832;od C&#127832;URT</h1>
+    <div class="nav">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Order</a></li>
+            <li><a>Near</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          
+        </ul>
+        
+    </div>
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="slide1.png">
+        <img class="mySlides" src="slide2.png">
+        <img class="mySlides" src="slide3.png">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <!-- <div class="homepage">
+        <img src="home.png" alt="" >
+        -->
+
+    <!-- <div class="container1">
+            <img src="home.png" alt="Avatar" class="image1">
+            <div class="overlay">
+              <div class="text">WELCOME TO OUR FOOD COURT!&#128522;</div>
+            </div>
+          </div>
+     -->
+    <div class="container">
+        <div class="row">
+            <div class="img">
+                <img src="noodles.jpg" alt="">
+
+                <h2>Noodles</h2>
+                <button>Order</button>
+            </div>
+            <div class="img">
+                <img src="pizza.jpg" alt="">
+                <h2>Pizza</h2>
+                <button>Order</button>
+            </div>
+            <div class="img">
+                <img src="cake.jpg" alt="">
+                <h2>Cake</h2>
+                <button>Order</button>
+            </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="container">
+            <div class="row">
+                <div class="img">
+                    <img src="chips.png" alt="">
+                    <h2>Chips</h2>
+                    <button>Order</button>
+                </div>
+                <div class="img">
+                    <img src="pasta.png" alt="">
+                    <h2>Pasta</h2>
+                    <button>Order</button>
+                </div>
+                <div class="img">
+                    <img src="frenchfries.png" alt="">
+                    <h2>French Fries</h2>
+                    <button>Order</button>
+                </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="container">
+                <div class="row">
+                    <div class="img">
+                        <img src="pepsi.png" alt="">
+                        <h2>Pepsi</h2>
+                        <button>Order</button>
+                    </div>
+                    <div class="img">
+                        <img src="orngejuice.png" alt="">
+                        <h2>Orange Juice</h2>
+                        <button>Order</button>
+                    </div>
+                    <div class="img">
+                        <img src="coffee.png" alt="">
+                        <h2>Coffee</h2>
+                        <button>Order</button>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- <footer>
+      <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="sectiontitle">Shop</h4>
+                    <br>
+                    <a class="btnlink">About Us</a>
+                    <a class="btnlink">Contact  Us</a>
+                    <a class="btnlink">Privacy Policy</a>
+                    <a class="btnlink">Term & Condition</a>
+
+                
+                    
+
+                </div>
+            </div>
+        </div>
+      </div>
+    </footer> -->
+</body>
+
+</html>
