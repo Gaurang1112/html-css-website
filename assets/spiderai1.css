@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://spiderai.in/assets/images/banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+}
+.page-title img{
+    height: 80px;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+ h3{
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+span{
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 140px;
+    padding-top: 40px;
+    color: rgb(51, 51, 51);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icon1{
+    /* transform: matrix(1,0,0,1,14.8,13.1); */
+    height: 130px;
+    font-size: 60px;
+    position: absolute;
+    width: auto;
+    top:100px;
+    right:500px;
+    
+}
+.icon2{
+    /* transform: matrix(1,0,0,1,14.8,13.1); */
+    height: 130px;
+    font-size: 60px;
+    position: absolute;
+    width: auto;
+    left:200px;
+    top:150px;
+}
+.icon3{
+    /* transform: matrix(1,0,0,1,14.8,13.1); */
+    height: 100px;
+    font-size: 60px;
+    position: absolute;
+    width: auto;
+    left:40px;
+    top:450px;
+}
+.icon4{
+    /* transform: matrix(1,0,0,1,14.8,13.1); */
+    height: 100px;
+    font-size: 60px;
+    position: absolute;
+    width: auto;
+    right: 570px;
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+.partnership h5{
+    font-size: 30px;
+    color: rgb(24, 20, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+.partnership span{
+    color: rgb(19, 119, 19);
+    margin-left: 8px;
+    font-size: 33px;  
+}
+.partnership img{
+    width: 1150px;
+    vertical-align: middle;
+    /* margin-top: 10px; */
+    margin-left: 80px;
+}
+ .card-dekho{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    /* padding: 100px; */
+    /* margin-top: 10px;  */
+    margin-left: -100px;
+}
+.card-dekho col{
+    width: 600px;
+    height: 250px;
+    
+}
+.card-body{
+    width: 540px;
+    height: 235px;
+}
+.card-round{
+    display: flex;
+    justify-content: space-evenly;
+    width: 540px;
+    height: 230px;
+    border: 1px solid #ea4335;
+    border-radius: 20px;
+    margin:10px;
+}
+.row-align{
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 230px;
+    align-items: center;
+}
+.imgs img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+
+}
+h5{
+    font-size: 23px;
+    font-family: sans-serif;
+    margin: 15px;
+    padding: 5px;
+    color: #1C2631;
+}
+p{
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: sans-serif;
+    color: #737374;
+    margin: 10px;
+    padding: 10px;
+}
+.bg{
+    background-image: url('https://spiderai.in/assets/images/bgsection2.png');
+    background-size: cover;
+}
+.container2{
+    width: 1200px;
+    height: 670px;
+}
+.img-col{
+    width: 400px;
+    height: 670px;
+    margin-left: 270px;
+}
+img{
+    width: 370px;
+    height: 670;
+}
+.text-col{
+    width: 400px;
+    height: 670px;
+    border: 1px solid white; 
+    border-radius:20px;
+    background-color: white;
+    margin: 10px;
+}
+.text-body p{
+    font-size: 17px;
+    text-align: center;
+}
+.h3-1 {
+    color: #ea4335;
+    font-size: 38px;
+    font-family: sans-serif;
+    padding-right: 140px;
+}
+.h3-2{
+    color: #34a853;
+    font-size: 38px;
+    font-family: sans-serif;
+    padding-right: 140px;
+}
+.h3-3{
+    color: #4285f4;
+    font-size: 38px;
+    font-family: sans-serif;
+    padding-right: 80px;
+}
+.mt-50-mb-50{
+    margin: 30px;
+}
+.bg2{
+    background-image: url(https://spiderai.in/assets/images/03.png);
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 350px;
+    
+}
+.container3{
+    width: 1200;
+    height: 440px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 150px;
+}
+iframe{
+    width: 770px;
+    height: 430px;
+    border: 2px solid  #ea4335;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.videoBg{
+    position: absolute;
+    right: 10.5%;
+}
+.section4{
+    background-image:url(https://spiderai.in/assets/images/bgsection3.png);
+    background-size:cover
+
+}
+.container4{
+    width: 1200px;
+    height: 550px;
+
+}
+.row4{
+    width: 1200px;
+    height: 110px;
+}
+.name{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #212122;
+}
+strong{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #212122;
+    margin-left: 170px;
+}
+.row-phone{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.col-phone{
+    width: 460px;
+    height: 650px;
+}
+.size{
+    width: 570px;
+    height: 520px;
+    margin-left: 270px;
+    margin-top: 70px;   
+}
+.size1{
+    width: 570px;
+    height: 220px;
+    border: 1px solid rgb(238, 226, 226);
+    /* border-radius: 15px; */
+    margin-top: 80px;
+    margin-left: 400px;
+    
+}
+/* .card{
+    width: 570px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    
+} */
+.col2{
+    width: 570px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(238, 226, 226);
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+.text--dart {
+    font-size: 20px; 
+    margin-left: 3px;
+}
+.text-dart p{
+    margin: 8px;
+}
+.text{
+    color: #1e6be8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: -9px;   
+}
+.col3{
+    width: 570px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(238, 226, 226);
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.section5{
+    width: 1500px;
+    height: 500px;
+    background-image: url(https://spiderai.in/assets/images/formBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container5{
+    width: 1500px;
+    height: 600px;
+}
+.container5 .row{
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    width: 750px;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-meeting{
+    width: 720px;
+    height: 540px;
+    margin-left:-500px;
+}
+.col-form{
+    width: 600px;
+    height: 600;
+    border: 1px solid rgb(239, 160, 160);
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: -300px;
+    
+}
+.col-body{
+    width: 550px;
+    height: 580px;
+    margin: 10px;
+}
+.form-row{
+    display: flex;
+    width: 570px;
+    height: 115px;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #737374;
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.form-group{
+    display: block;
+    margin: 15px 10px;
+    margin-bottom: 10px;
+    
+}
+input{
+    padding: 15px 10px;
+    width: 240px;
+    border: 1px solid  #737374;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #5c5c60;
+    
+    
+}
+textarea{
+    width: 600px;
+    height: 100px;
+    padding: 15px;
+    color:  #5c5c60;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid  #737374;
+    border-radius: 5px;
+    
+}
+.form-control{
+    width: 530px;
+    /* height: 100px; */
+    padding: 10px;
+    color:  #5c5c60;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid  #5c5c5f;
+    border-radius: 5px;
+}
+button{
+    margin: 20px;
+    /* padding: 20px; */
+    width: 180px;
+    height: 50px;
+    margin-left: 210px;
+    background-color: #ffc107;
+    color: #212529;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+button:hover{
+    background-color: #212529;
+    color: white;
+}
+.about-layout1{
+    background-image: url(https://spiderai.in/assets/images/bgsection4.png);
+    background-size: cover;
+    height: 300px;
+}
+.mb-2 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    
+        
+}
+.row-align-items-center{
+    width: 1200px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.mb-3 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    margin-left: 168px;
+        
+}
+.row-align-items-center1{
+    display: flex;
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+.card-mb-3{
+    font-size: 600;
+    margin: 40px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    margin-left: 210px;
+
+}
+.text-blue-mb-3{
+    color: #1e6be8;
+    width: 100px;
+    height: 80px;
+}
+.fas-fa-search{
+    color: #1e6be8;
+}
+.Sec_4-img{
+    width: 570px;
+    height: 300px;
+    margin-top: 50px;
+}
+.bg{
+    background-image: url(https://spiderai.in/assets/images/3.jpg);
+    background-size: cover;
+}
+.row-last{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 50px; */
+}
+.col-last{
+    width: 600px;
+    height: 55px;
+    margin-top: 300px;
+}
+.text1{
+    font-size: 42px;
+    color: #1C2631;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -300px;
+}
+.btn{
+    margin-top: 300px;
+    /* padding: 20px; */
+    width: 190px;
+    height: 60px;
+    background-color: #ffc107;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    margin-right: -400px;
+}
+.btn1{
+    color: #212122;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+a{
+    margin-top: 20px;
+    display: block;
+}
+.btn:hover{
+    background-color: #1C2631;
+}
+.btn1:hover{
+    color: white;
+}
+
+
+
+
+
